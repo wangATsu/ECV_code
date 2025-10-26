@@ -90,7 +90,7 @@ We provide an R package, **pECV** (Penalized Entrywise Splitting Cross-Validatio
 
 The package is available from two sources:
 
-* **Stable Version:** The most recent stable version is available on the Comprehensive R Archive Network (CRAN).
+* **Stable Version:** The most recent stable version is available on the Comprehensive R Archive Network (CRAN). <https://cran.r-project.org/package=pECV>
 * **Development Version:** The latest development version is hosted on GitHub. <https://github.com/wangATsu/ECV>
 
 ### Documentation
