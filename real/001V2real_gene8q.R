@@ -175,12 +175,10 @@ for (n in c(707)) {
       }
       
       # Determine row index for results (only K=5 case)
-      # if (K == 2) r <- 1  # COMMENTED OUT
-      # else
       #if (K == 5) 
-        r <- 2  # COMMENTED OUT
-     # else if (K == 10)  r <- 3  # COMMENTED OUT
-      # r <- 3 # MODIFIED: Directly set r = 2 for K = 5
+        r <- 2  
+
+
       
       # Calculate different penalty methods
       es_loss <- loss_values[1, ]  # ES (first fold)
