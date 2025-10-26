@@ -76,10 +76,7 @@ brain_count_f1000[brain_count_f1000 > quantile_limit] <- quantile_limit
 for (n in c(707)) {
   for (p in c(1000)) {
     
-    # cat("\n", paste(rep("=", 50), collapse=""), "\n")
-    # cat("Real data start sample =", n, "feature =", p, "\n")
-    # cat(paste(rep("=", 50), collapse=""), "\n")
-    # 
+
     # Initialize results matrix for this (n,p) combination
     results <- matrix(0, nrow = 1, ncol = 63)
     
@@ -183,11 +180,8 @@ for (n in c(707)) {
       }
       
       # Determine row index for results (only K=5 case)
-      # if (K == 2) r <- 1  # COMMENTED OUT
-      # else
-      #if (K == 5) r <- 2  # COMMENTED OUT
-      #else if (K == 10) r <- 3  # COMMENTED OUT
-      r <- 3 # MODIFIED: Directly set r = 2 for K = 5
+
+      r <- 3 
       
       # Calculate different penalty methods
       es_loss <- loss_values[1, ]  # Early stopping (first fold)
